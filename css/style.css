@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Assistant', sans-serif;
+}
+
+.header{
+    width: max-content;
+    margin: 5% auto;
+    font-size: 2em;
+    margin-bottom: -5px;
+}
+.box{
+    width: 28%;
+    display:inline-block;
+    margin: 30px;
+    padding: 25px;
+    position: relative;
+    border: 2px solid rgb(0, 0, 0);   
+    background-color: rgba(109, 106, 106, 0.74);
+    color: black;
+    font-weight: bold;
+
+}
+
+span{
+    position: absolute;
+    padding: 4px 12px;
+    right: 0;
+    top: 0;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    color: rgba(255, 255, 255, 0.842);
+    font-weight: bold;
+    background-color:rgba(55, 86, 189, 0.794);
+}
+
+/* tablet */
+ @media (max-width:991px) and (min-width:768px){
+   .one,.two{width: 40%;}
+   .three{width: 90%;}
+}
+
+
+/* mobile */
+
+@media (max-width:768px){
+    .one,.two,.three{width: 90%;}
+}
